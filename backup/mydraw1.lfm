@@ -1,0 +1,22 @@
+object FrmMyDraw: TFrmMyDraw
+  Left = 386
+  Height = 395
+  Top = 135
+  Width = 489
+  Caption = 'Рисование'
+  ClientHeight = 395
+  ClientWidth = 489
+  OnCreate = FormCreate
+  OnMouseDown = MyMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = MyMouseUp
+  LCLVersion = '1.8.4.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 94
+    Top = 0
+    Width = 105
+    Caption = 'Panel1'
+    TabOrder = 0
+  end
+end

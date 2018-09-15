@@ -1,0 +1,12 @@
+object FrmMyDraw: TFrmMyDraw
+  Left = 386
+  Height = 395
+  Top = 135
+  Width = 489
+  Caption = 'Рисование'
+  OnCreate = FormCreate
+  OnMouseDown = MyMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = MyMouseUp
+  LCLVersion = '1.8.4.0'
+end
